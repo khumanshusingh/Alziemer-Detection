@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+  background-image: url(dimentia.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  height: 100vh;
+}
+.logo {
+  font-weight: 900;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#30cfd0, #00bbff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#hero-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 900;
+}
+.hero {
+  text-align: center;
+}
+#hero-cta {
+  cursor: pointer;
+  background-color: rgb(63, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+#hero-cta:hover {
+  box-shadow: 4px 4px white;
+  background-color: rgb(0, 255, 255);
+  transition: 0.3s ease;
+}
